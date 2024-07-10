@@ -29,6 +29,7 @@ Clean the build directory
 
 ### Requirements
 * Requires a terminal emulator
+* Requires Python for the Python version
 
 ### Platforms
 * Windows
@@ -40,7 +41,13 @@ ____________
 
 ### CLI Usage
 * Run `brainbrawler.exe <bitcoin address>` to run dictionary attack against the address
-* Sample from wordlist: `rockyou` -> `167pV6UnXfYe6DFyxubM45rWVeW1uA6bF7`
+* Sample from wordlist: `rockyou` -> `167pV6UnXfYe6DFyxubM45rWVeW1uA6bF7
 
-### Unit tests
+### Python CLI Usage
+* Run `brainbrawler.py <bitcoin address>`
+
+### Unit Tests
 * Run `test_brainbrawler.exe`
+
+### Python Unit Tests
+* Run  `python3 -m pytest test_brainbrawler.py`
